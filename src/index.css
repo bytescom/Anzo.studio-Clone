@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: "wolf1";
+  src: url(./assets/fonts/file.woff2);
+}
+
+@font-face{
+  font-family: "wolf2";
+  src: url(./assets/fonts/madefor-text.var.original.woff2);
+}
+
+@font-face{
+  font-family: "wolf3";
+  src: url(./assets/fonts/extenda-30-deca.otf);
+}
+
+@font-face {
+  font-family: "wolf4";
+  src: url(./assets/fonts/Extenda-40-Hecto-trial.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: "wolf5";
+  src: url(./assets/fonts/Extenda-80-Peta-trial.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: "wolf6";
+  src: url(./assets/fonts/Heathergreen.otf) format(opentype);
+}
+
+@font-face {
+  font-family: "wolf7";
+  src: url(./assets/fonts/extenda-20-micro.otf) format(opentype);
+}
+
+
+/* Optional: Add different weights/styles */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('../assets/fonts/CustomFont-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body{
+  background-color: #111;
+}
+
+.fanstay{
+  font-family: fantasy;
+}
+
+.perspective{
+  perspective: 1000px;
+}
+
